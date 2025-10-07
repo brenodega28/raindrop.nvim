@@ -1,6 +1,6 @@
 # Raindrop.nvim
 
-A dark Neovim theme inspired by modern code editors with a deep blue-gray background and vibrant syntax highlighting.
+Color theme inspired by raindrop theme from ray.so.
 
 ## Installation
 
@@ -8,7 +8,7 @@ A dark Neovim theme inspired by modern code editors with a deep blue-gray backgr
 
 ```lua
 {
-  "bgomes/raindrop.nvim",
+  "brenodega28/raindrop.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -21,7 +21,7 @@ A dark Neovim theme inspired by modern code editors with a deep blue-gray backgr
 
 ```lua
 use {
-  "bgomes/raindrop.nvim",
+  "brenodega28/raindrop.nvim",
   config = function()
     vim.cmd([[colorscheme raindrop]])
   end
@@ -31,7 +31,7 @@ use {
 ### Using vim-plug
 
 ```vim
-Plug 'bgomes/raindrop.nvim'
+Plug 'brenodega28/raindrop.nvim'
 ```
 
 Then add to your `init.vim` or `init.lua`:
@@ -45,7 +45,7 @@ colorscheme raindrop
 Clone this repository into your Neovim configuration directory:
 
 ```bash
-git clone https://github.com/bgomes/raindrop.nvim ~/.config/nvim/pack/themes/start/raindrop.nvim
+git clone https://github.com/brenodega28/raindrop.nvim ~/.config/nvim/pack/themes/start/raindrop.nvim
 ```
 
 ## Usage
