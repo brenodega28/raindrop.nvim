@@ -162,7 +162,7 @@ function M.setup(colors)
     ["@comment.error"] = { fg = colors.red, bold = true },
 
     ["@tag"] = { fg = colors.cyan },
-    ["@tag.attribute"] = { fg = colors.fg0 },
+    ["@tag.attribute"] = { fg = colors.teal },
     ["@tag.delimiter"] = { fg = colors.fg1 },
 
     -- Python decorators
